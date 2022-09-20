@@ -3,7 +3,9 @@ import 'dart:io';
 void main(List<String> args) {
   print("WEREWOLF");
   print("pilih nama dan peran anda");
+  print("nama");
   String? nama = stdin.readLineSync();
+  print("peran");
   String? peran = stdin.readLineSync();
 
   //print("nama ");
